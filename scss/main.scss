@@ -127,6 +127,9 @@ body {
         border: 1.5px solid hsla(0, 0%, 81%, 0.5);
         background-color: hsla(0, 0%, 81%, 0.5);
     }
+    .content {
+        margin-top: 1.2rem;
+    }
 }
 .b {
     grid-area: b;
@@ -135,6 +138,9 @@ body {
     img {
         border: 1.5px solid hsl(0, 0%, 81%);
         background-color: hsl(0, 0%, 81%);
+    }
+    .content {
+        margin-top: 1.2rem;
     }
 }
 .c {
@@ -196,12 +202,20 @@ body {
         box-shadow: 20px 13px 15px hsl(0, 0%, 81%);
     }
     .a {
+        .content {
+            margin-top: 1.6rem;
+        }
         &::after {
             content: url("/images/bg-pattern-quotation.svg");
             position: absolute;
             top: 0;
             right: 1.4rem;
             opacity: 0.9;
+        }
+    }
+    .b {
+        .content {
+            margin-top: 1.6rem;
         }
     }
 }
